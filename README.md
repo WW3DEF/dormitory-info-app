@@ -3,8 +3,28 @@
 
 ## 첫페이지
 ![image](https://user-images.githubusercontent.com/94514664/204422231-a69d23b4-f36d-4e23-9ea9-3a625f231c34.png)   
-기숙사 사진과 각각의 페이지가 담긴 리스트 뷰를 표시했습니다.   
-
+기숙사 사진과 각각의 페이지가 담긴 리스트 뷰를 표시했습니다.
+<code>
+<pre>
+<div data-theme="b">
+        <div data-role="page" id="home">
+            <div data-role="header" data-theme="b">
+                <h1>기숙사 소개 앱</h1>
+            </div>
+            <div data-role="content" style="text-align:center">
+                    <img src="img/dit_0.jpg" width="100%" >
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#intro">기숙사 시설현황</a></li>
+                    <li><a href="#movie" data-rel="dialog">기숙사 영상</a></li>
+                    <li><a href="#gallery">기숙사 사진</a></li>
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <h1>동의과학대학교_기숙사</h1>
+            </div>
+        </div>
+</code>
+</pre>
 ## 시설현황
 ![image](https://user-images.githubusercontent.com/94514664/204422435-1862bc78-9d1b-40ec-a3e9-e513660251f4.png)   
 ![image](https://user-images.githubusercontent.com/94514664/204422643-34d1328d-fcfd-411b-ad08-33f2adc061ae.png)   
